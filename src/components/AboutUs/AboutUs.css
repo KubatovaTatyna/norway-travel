@@ -1,0 +1,42 @@
+.AboutUs {
+  padding-top: 5rem;
+}
+
+.aboutContainer{
+  max-width: 80vw;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.aboutHeader {
+  text-align: center;
+}
+
+.aboutHeader h1 {
+  font-size: 42px;
+}
+
+.aboutHeader span {
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.aboutContainer .aboutImage img {
+  width: 500px;
+}
+
+.aboutText {
+  margin-left: 4rem;
+}
+
+.aboutText h3{
+  font-size: 22px;
+  color: #3d3d3d;
+}
+
+.aboutText p {
+  font-size: 14px;
+  color: var(--light-gray-color);
+}
