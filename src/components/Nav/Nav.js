@@ -3,13 +3,13 @@ import Logo from "./Logo/Logo";
 import NavItem from "./NavItem/NavItem";
 
 const Nav = () => {
-  return (<div className={classes.Container}>
+  return (
     <div className={classes.Nav}>
       <Logo />
       <NavItem />
       {/* <Menu /> */}
     </div>
-  </div>);
+  );
 }
 
 export default Nav;
