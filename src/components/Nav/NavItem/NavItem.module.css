@@ -1,0 +1,12 @@
+.NavItem ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.NavItem ul li {
+  margin: 0 .5rem;
+  font-family: var(--montserrat);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--white-color);
+}
