@@ -6,9 +6,8 @@ import slide4 from '../../assets/slide4.jpg';
 import slide5 from '../../assets/slide5.jpg';
 import facebook from '../../assets/facebook.png'
 import instagram from '../../assets/instagram.png'
-import twitter from '../../assets/twitter.png'
+import twitter from '../../assets/twitter.png';
 
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
