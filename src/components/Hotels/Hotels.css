@@ -1,0 +1,8 @@
+.Hotels {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.HotelsCards {
+  display: flex;
+  justify-content: space-between;
+}

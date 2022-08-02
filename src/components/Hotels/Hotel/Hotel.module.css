@@ -1,0 +1,12 @@
+.CardText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardImage {
+  width: 300px;
+}
+
+.CardText h2 {
+  margin: 0;
+}
