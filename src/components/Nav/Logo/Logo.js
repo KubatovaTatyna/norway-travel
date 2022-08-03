@@ -1,8 +1,7 @@
-import classes from './Logo.module.css';
-import logo from '../../../assets/logo.png'
+import './Logo.css';
 
-const Logo = () => {
-  return (<div className={classes.Logo}>
+const Logo = ({ logo }) => {
+  return (<div className='Logo'>
     <img src={logo} />
     <span>TRAVELx</span>
   </div>);

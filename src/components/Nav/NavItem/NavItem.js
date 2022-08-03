@@ -1,7 +1,7 @@
-import classes from './NavItem.module.css';
+import classes from './NavItem.css';
 
 const NavItem = () => {
-  return (<div className={classes.NavItem}>
+  return (<div className='NavItem'>
     <ul>
       <li>Destinations</li>
       <li>Activities</li>

@@ -1,6 +1,7 @@
 .NavItem ul{
   list-style-type: none;
   display: flex;
+  margin: 0;
 }
 
 .NavItem ul li {

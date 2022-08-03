@@ -1,0 +1,15 @@
+.headerText {
+  position: absolute;
+}
+
+.headerText h1 {
+  font-size: 150px;
+  margin: 0;
+  color: var(--white-color);
+}
+
+.headerText span {
+  color: var(--white-color);
+  font-size: 20px;
+  letter-spacing: .5rem;
+}

@@ -49,13 +49,6 @@
   align-items: center;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
 
 
 .Activities .swiper-button-next,
@@ -74,22 +67,4 @@
   color: var(--light-gray-color);
   font-weight: 600;
   font-size: 30px;
-}
-
-.slideText {
-  position: absolute;
-  bottom: 0;
-  left: 1rem;
-  text-align: start;
-}
-
-.slideText p {
-  font-size: 27px;
-  margin: .2rem 0;
-  color: var(--white-color);
-}
-
-.slideText span {
-  color: #fff;
-  font-size: 14px;
 }

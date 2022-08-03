@@ -18,6 +18,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
+import ActivitiesSlide from './ActivitiesSlide/ActivitiesSlide';
 
 const Activities = () => {
   return (<div className="Activities">
@@ -40,55 +41,14 @@ const Activities = () => {
           modules={[Pagination, Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <img src={slide1} />
-            <div className='slideText'>
-              <p>Hikking</p>
-              <span>230 activites</span>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide><img src={slide2} />
-            <div className='slideText'>
-              <p>Sailing</p>
-              <span>230 activites</span>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide><img src={slide3} />
-            <div className='slideText'>
-              <p>Skiing</p>
-              <span>230 activites</span>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide><img src={slide4} />
-            <div className='slideText'>
-              <p>Kayaking</p>
-              <span>230 activites</span>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide><img src={slide5} />
-            <div className='slideText'>
-              <p>Hikking</p>
-              <span>230 activites</span>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide><img src={slide6} />
-            <div className='slideText'>
-              <p>Hikking</p>
-              <span>230 activites</span>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide><img src={slide7} />
-            <div className='slideText'>
-              <p>Hikking</p>
-              <span>230 activites</span>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide><img src={slide8} />
-            <div className='slideText'>
-              <p>Hikking</p>
-              <span>230 activites</span>
-            </div>
-          </SwiperSlide>
+          <SwiperSlide><ActivitiesSlide slide={slide1}/></SwiperSlide>
+          <SwiperSlide><ActivitiesSlide slide={slide2}/></SwiperSlide>
+          <SwiperSlide><ActivitiesSlide slide={slide3}/></SwiperSlide>
+          <SwiperSlide><ActivitiesSlide slide={slide4}/></SwiperSlide>
+          <SwiperSlide><ActivitiesSlide slide={slide5}/></SwiperSlide>
+          <SwiperSlide><ActivitiesSlide slide={slide6}/></SwiperSlide>
+          <SwiperSlide><ActivitiesSlide slide={slide7}/></SwiperSlide>
+          <SwiperSlide><ActivitiesSlide slide={slide8}/></SwiperSlide>
         </Swiper>
       </div>
     </>

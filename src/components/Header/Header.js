@@ -4,9 +4,6 @@ import slide2 from '../../assets/slide2.jpg';
 import slide3 from '../../assets/slide3.jpg';
 import slide4 from '../../assets/slide4.jpg';
 import slide5 from '../../assets/slide5.jpg';
-import facebook from '../../assets/facebook.png'
-import instagram from '../../assets/instagram.png'
-import twitter from '../../assets/twitter.png';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -21,6 +18,7 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
 
 import "./Header.css";
+import SwiperSlides from "./SwiperSlides/SwiperSlides";
 
 
 const Header = () => {
@@ -36,43 +34,11 @@ const Header = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img src={slide1} />
-          <div className="headerText">
-            <span>EXPLORE</span>
-            <h1>Norway</h1>
-          </div>
-          <div className="links">
-            <a href="#"><img src={facebook} className='facebook'/></a>
-            <a href="#"><img src={twitter} /></a>
-            <a href="#"><img src={instagram} /></a>
-          </div>
-
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide2} />
-          <div className="headerText">
-            <span>EXPLORE</span>
-            <h1>Norway</h1>
-          </div></SwiperSlide>
-        <SwiperSlide>
-          <img src={slide3} />
-          <div className="headerText">
-            <span>EXPLORE</span>
-            <h1>Norway</h1>
-          </div></SwiperSlide>
-        <SwiperSlide>
-          <img src={slide4} />
-          <div className="headerText">
-            <span>EXPLORE</span>
-            <h1>Norway</h1>
-          </div></SwiperSlide>
-        <SwiperSlide>
-          <img src={slide5} />
-          <div className="headerText">
-            <span>EXPLORE</span>
-            <h1>Norway</h1>
-          </div></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide1}/></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide2}/></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide3}/></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide4}/></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide5}/></SwiperSlide>
       </Swiper>
     </>
   </div>);
