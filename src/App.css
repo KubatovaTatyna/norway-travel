@@ -10,6 +10,10 @@
   --black-color: #2D2D2D;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--montserrat);
   padding: 0;
