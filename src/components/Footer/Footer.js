@@ -8,6 +8,7 @@ const Footer = () => {
     <Logo logo={logo}/>
     <NavItem />
     <hr />
+    <div>Copyright 2022</div>
   </div> );
 }
 

@@ -1,6 +1,6 @@
 .Footer {
   background-color: var(--dark-white-color);
-  margin-top: 3rem;
+  padding-top: 3rem;
 }
 
 .Footer .Logo span {
@@ -28,4 +28,9 @@
 .Footer hr {
   max-width: 70vw;
   margin: 2rem auto;
+}
+
+.Footer div {
+  text-align: center;
+  margin: .5rem 0;
 }
