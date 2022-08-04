@@ -13,3 +13,19 @@
   font-size: 20px;
   letter-spacing: .5rem;
 }
+
+
+@media(max-width:595px) {
+  .headerText h1 {
+    font-size: 95px;
+  }
+}
+
+@media(max-width:385px) {
+  .headerText h1 {
+    font-size: 65px;
+  }
+  .headerText span {
+    font-size: 16px;
+  }
+}

@@ -11,3 +11,9 @@
   font-weight: 600;
   color: var(--white-color);
 }
+
+@media(max-width:735px) {
+  .NavItem {
+    display: none;
+  }
+}

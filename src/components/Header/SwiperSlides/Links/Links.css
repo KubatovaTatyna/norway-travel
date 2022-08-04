@@ -19,3 +19,20 @@
   width: 11px;
   height: 18px;
 }
+
+@media(max-width:735px) {
+  .links {
+    flex-direction: row;
+    top: auto;
+    bottom: -3rem;
+    right: auto;
+    width: 10rem;
+    padding-right: 0;
+  }
+}
+
+@media(max-width:540px) {
+  .links {
+    bottom: 0rem;
+  }
+}
