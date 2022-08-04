@@ -1,8 +1,24 @@
 .Hotels {
   max-width: 80vw;
   margin: 0 auto;
+  margin-top: 5rem;
 }
 .HotelsCards {
   display: flex;
   justify-content: space-between;
+}
+
+
+.hotelsHeader {
+  text-align: center;
+}
+
+.hotelsHeader h1 {
+  font-size: 42px;
+  color: var(--black-color);
+}
+
+.hotelsHeader span {
+  font-size: 15px;
+  letter-spacing: .5rem;
 }
