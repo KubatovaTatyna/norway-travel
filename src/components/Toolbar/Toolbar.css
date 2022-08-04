@@ -1,0 +1,22 @@
+.Toolbar {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+  align-items: center;
+}
+
+@media(max-width:735px) {
+  .Toolbar ul {
+    display: none;
+  }
+}
+
+@media(max-width:735px) {
+  .Toolbar {
+    justify-content: space-between;
+    padding:1.5rem 2rem;
+  }
+}

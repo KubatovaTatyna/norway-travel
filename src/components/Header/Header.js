@@ -19,11 +19,14 @@ import { Pagination, Navigation } from "swiper";
 
 import "./Header.css";
 import SwiperSlides from "./SwiperSlides/SwiperSlides";
+import Toolbar from "../Toolbar/Toolbar";
+import Drawer from "../Drawer/Drawer";
 
 
 const Header = () => {
   return (<div className='Header'>
-    <Nav />
+    <Toolbar />
+    <Drawer />
     <>
       <Swiper
         direction={"vertical"}
@@ -34,11 +37,11 @@ const Header = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><SwiperSlides slide={slide1}/></SwiperSlide>
-        <SwiperSlide><SwiperSlides slide={slide2}/></SwiperSlide>
-        <SwiperSlide><SwiperSlides slide={slide3}/></SwiperSlide>
-        <SwiperSlide><SwiperSlides slide={slide4}/></SwiperSlide>
-        <SwiperSlide><SwiperSlides slide={slide5}/></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide1} /></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide2} /></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide3} /></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide4} /></SwiperSlide>
+        <SwiperSlide><SwiperSlides slide={slide5} /></SwiperSlide>
       </Swiper>
     </>
   </div>);

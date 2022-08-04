@@ -1,19 +1,7 @@
-.NavItem ul{
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-}
-
-.NavItem ul li {
+.NavItem {
   margin: 0 .5rem;
   font-family: var(--montserrat);
   font-size: 18px;
   font-weight: 600;
   color: var(--white-color);
-}
-
-@media(max-width:735px) {
-  .NavItem {
-    display: none;
-  }
 }

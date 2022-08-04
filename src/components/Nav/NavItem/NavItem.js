@@ -1,13 +1,8 @@
-import classes from './NavItem.css';
+import './NavItem.css';
 
-const NavItem = () => {
-  return (<div className='NavItem'>
-    <ul>
-      <li>Destinations</li>
-      <li>Activities</li>
-      <li>About Us</li>
-      <li>Contact</li>
-    </ul>
-  </div>)
+const NavItem = ({ children }) => {
+  return (<li className='NavItem'>
+      {children}
+  </li>)
 }
   export default NavItem;
