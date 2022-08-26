@@ -5,7 +5,7 @@ import './SwiperSlides.css';
 const SwiperSlides = ({ slide }) => {
   return (
     <>
-      <img src={slide}  alt='image'/>
+      <img src={slide}  alt='this is image'/>
       <div className="headerText">
         <span>EXPLORE</span>
         <h1>Norway</h1>

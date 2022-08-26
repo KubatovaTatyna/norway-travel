@@ -9,7 +9,7 @@ const AboutUs = () => {
     </div>
     <div className='aboutContainer'>
       <div className='aboutImage'>
-        <img src={aboutImg} alt='image'/>
+        <img src={aboutImg} alt='this is image'/>
       </div>
       <div className='aboutText'>
         <ol>

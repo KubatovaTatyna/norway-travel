@@ -2,7 +2,7 @@ import './Logo.css';
 
 const Logo = ({ logo }) => {
   return (<div className='Logo'>
-    <img src={logo}  alt='image'/>
+    <img src={logo}  alt='this is image'/>
     <span>TRAVELx</span>
   </div>);
 }
