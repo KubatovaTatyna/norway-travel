@@ -9,9 +9,9 @@ const Partners = () => {
       <h1>Our Partners</h1>
     </div>
     <div className='partnersLogos'>
-      <img src={microsoft}/>
-      <img src={magento}/>
-      <img src={lakehouse}/>
+      <img src={microsoft}  alt='image'/>
+      <img src={magento}  alt='image'/>
+      <img src={lakehouse}  alt='image'/>
     </div>
   </div>);
 }

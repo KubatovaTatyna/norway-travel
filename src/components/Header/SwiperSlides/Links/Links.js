@@ -6,9 +6,9 @@ import './Links.css';
 const Links = () => {
   return (
     <div className="links">
-      <a href="#"><img src={facebook} className='facebook'/></a>
-      <a href="#"><img src={twitter} /></a>
-      <a href="#"><img src={instagram} /></a>
+      <a href="#"><img src={facebook} className='facebook'  alt='image'/></a>
+      <a href="#"><img src={twitter} alt='image' /></a>
+      <a href="#"><img src={instagram}  alt='image'/></a>
     </div> );
 }
 
