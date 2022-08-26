@@ -4,7 +4,6 @@ import Activities from "./components/Activities/Activities";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Hotels from "./components/Hotels/Hotels";
 import Feedback from "./components/Feedback/Feedback";
-import Footer from "./components/Footer/Footer";
 import Layout from "./components/Layout/Layout";
 
 function App() {

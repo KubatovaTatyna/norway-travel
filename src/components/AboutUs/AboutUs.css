@@ -40,3 +40,22 @@
   font-size: 14px;
   color: var(--light-gray-color);
 }
+
+@media(max-width: 1200px) {
+  .aboutContainer {
+    flex-direction: column;
+  }
+  .aboutContainer .aboutImage img {
+    width: 80vw;
+  }
+  .aboutText {
+    margin-left: 0;
+    max-width: 80vw;
+  }
+}
+
+@media(max-width:650px){
+  .aboutHeader h1 {
+    font-size: 25px;
+  }
+}

@@ -5,7 +5,8 @@
 }
 .HotelsCards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 
@@ -21,4 +22,10 @@
 .hotelsHeader span {
   font-size: 15px;
   letter-spacing: .5rem;
+}
+
+@media(max-width:650px){
+  .hotelsHeader h1 {
+    font-size: 25px;
+  }
 }

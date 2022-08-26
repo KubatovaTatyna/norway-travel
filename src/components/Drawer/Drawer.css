@@ -1,7 +1,8 @@
 .Drawer {
   position: absolute;
   z-index: 2;
-  padding: 2rem
+
+  display: none;
 }
 
 .Drawer ul li, .Drawer ul .Logo span{
@@ -30,6 +31,16 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, .3);
   z-index: 0;
+
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.open .backdrop{
+  display: block;
 }
 
 @media(min-width:735px) {

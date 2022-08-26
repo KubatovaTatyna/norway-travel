@@ -9,10 +9,12 @@
 
 .partnersLogos {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .partnersLogos img {
+  margin: 0 1rem;
   width: 180px;
   height: 135px;
 }
@@ -26,4 +28,11 @@
 .partnersHeader span {
   font-size: 15px;
   letter-spacing: .5rem;
+}
+
+
+@media (max-width:740px) {
+  .partnersHeader h1{
+    font-size: 25px;
+  }
 }

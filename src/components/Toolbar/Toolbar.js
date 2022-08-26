@@ -4,12 +4,12 @@ import Nav from "../Nav/Nav";
 import logo from '../../assets/logo.png';
 import './Toolbar.css';
 
-const Toolbar = () => {
+const Toolbar = ({ toggleDrawer }) => {
   return (
     <nav className='Toolbar'>
         <Logo logo={logo} />
         <Nav />
-        <Menu />
+        <Menu callback={toggleDrawer}/>
     </nav>
   );
 }

@@ -6,7 +6,6 @@ import Nav from '../Nav/Nav';
 
 const Footer = () => {
   return ( <div className='Footer'>
-    <Nav />
     <hr />
     <div>Copyright 2022</div>
   </div> );

@@ -23,3 +23,10 @@
   color: #fff;
   font-size: 14px;
 }
+
+@media(max-width: 640px) {
+  .slideText{
+    bottom: 2rem;
+    left: 4rem;
+  }
+}
