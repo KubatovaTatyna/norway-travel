@@ -1,7 +1,6 @@
 import hotel1 from '../../assets/hotel1.png';
 import hotel2 from '../../assets/hotel2.png';
 import hotel3 from '../../assets/hotel3.png';
-import grayStar from '../../assets/grayStar.png';
 import yellowStar from '../../assets/yellowStar.png';
 import Hotel from './Hotel/Hotel';
 

@@ -1,4 +1,3 @@
-import Logo from '../Nav/Logo/Logo';
 import Nav from '../Nav/Nav';
 import './Drawer.css';
 
